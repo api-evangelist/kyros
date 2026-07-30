@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: npm registry search, PyPI, GitHub code/repo search, kyros.ai published sitemap
+official_sdk_count: 0
+packages: []
+registries_probed:
+- registry: npm
+  result: no first-party package
+- registry: pypi
+  result: no first-party package
+- registry: github
+  result: no first-party organization or repository found for kyros.ai
+notes: >-
+  Kyros (kyros.ai, "Kyros College Prep") publishes no developer portal, no API
+  documentation, and no client libraries. Same-name packages found in the public
+  registries belong to unrelated projects and are explicitly NOT first-party:
+  npm "kyros" (a general JavaScript utility library), npm "@kyros.494/sdk" and
+  the GitHub repo Kyros-494/kyros-ai (an unrelated "Memory OS for AI agents"
+  project), npm "kyros-standard", npm "kyros-svelte-components", and the GitHub
+  repo lc-at/kyros (a Python WhatsApp Web wrapper). None of these are linked from
+  kyros.ai and none are claimed by the company. Recorded so future re-runs do not
+  mistake the name collision for an official SDK.

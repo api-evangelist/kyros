@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of https://www.kyros.ai/.well-known/*
+host: https://www.kyros.ai
+notes: >-
+  No /.well-known/ discovery documents are published. The 2023-10-12 Wayback
+  crawl of this host recorded the same result (security.txt, openid-configuration,
+  ai-plugin.json, trust.txt, dnt-policy.txt, gpc.json, nodeinfo, assetlinks.json
+  all 404), so this is a stable, long-standing absence rather than a transient
+  failure. The marketing site itself sits behind a Cloudflare interstitial that
+  returns 403 to non-browser clients; the /.well-known/ paths bypass that
+  challenge and return a genuine 404.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
