@@ -1,21 +1,51 @@
 aid: kyros
-name: Kyros
-description: 'Kyros is a company surfaced as a portfolio company of sierra-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Kyros College Prep
+description: 'Kyros (kyros.ai) is an AI-driven college preparation and admissions platform. In the company''s
+  own words, it is "a College Prep Platform by former Googlers, Admissions Officers, and Professors" that
+  "uses AI to offer 100K+ summer and financial aid programs." The product combines student assessments for
+  college and major fit, one-on-one counseling, college essay and letter-of-recommendation support,
+  extracurricular and summer-program discovery, and structured program tracks such as Future You Lab, the
+  UC Bootcamp, and industry immersion and research programs. Kyros also sells through partner channels,
+  with education-partner, VAR, counselor-advisory, college-success, and Fortune 1000 employer offerings,
+  and publishes a large admissions blog. As of 2026-07-19 Kyros publishes no public API, developer portal,
+  SDKs, or machine-readable API description.'
 url: https://raw.githubusercontent.com/api-evangelist/kyros/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.kyros.ai/logo192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - sierra-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector-correction: 'The vc-portfolio import recorded this company under sector "digital-health".
+  Enrichment on 2026-07-19 found kyros.ai is an education-technology / college-admissions platform
+  ("Kyros College Prep"), not a digital-health company. Tags and description corrected accordingly;
+  the backing attribution was left as imported and should be re-verified.'
+x-api-surface: none-published
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Digital Health
+- Education
+- EdTech
+- College Admissions
+- College Prep
+- Artificial Intelligence
+- Counseling
+- Test Preparation
+- Students
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +54,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kyros.ai/
+  url: https://www.kyros.ai/
+- type: Blog
+  url: https://www.kyros.ai/blogs
+- type: Pricing
+  url: https://www.kyros.ai/plans-pricing
+- type: Support
+  url: https://www.kyros.ai/faq
+- type: TermsOfService
+  url: https://www.kyros.ai/legal/term-of-use
+- type: PrivacyPolicy
+  url: https://www.kyros.ai/legal/privacy
+- type: DomainSecurity
+  url: security/kyros-domain-security.yml
+- type: WellKnown
+  url: well-known/kyros-well-known.yml
+- type: Packages
+  url: packages/kyros-packages.yml
+- type: LLMsTxt
+  url: llms/kyros-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
