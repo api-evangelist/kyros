@@ -10,6 +10,17 @@ description: 'Kyros (kyros.ai) is an AI-driven college preparation and admission
   and publishes a large admissions blog. As of 2026-07-19 Kyros publishes no public API, developer portal,
   SDKs, or machine-readable API description.'
 url: https://raw.githubusercontent.com/api-evangelist/kyros/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
