@@ -1,4 +1,4 @@
-# Kyros
+# Kyros College Prep
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kyros is a company surfaced as a portfolio company of sierra-ventures and added to the API Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead awaiting the enrichment pipeline.
+Kyros (kyros.ai) is an AI-driven college preparation and admissions platform. In the company's own words, it is "a College Prep Platform by former Googlers, Admissions Officers, and Professors" that "uses AI to offer 100K+ summer and financial aid programs." The product combines student assessments for college and major fit, one-on-one counseling, college essay and letter-of-recommendation support, extracurricular and summer-program discovery, and structured program tracks such as Future You Lab, the UC Bootcamp, and industry immersion and research programs. Kyros also sells through partner channels, with education-partner, VAR, counselor-advisory, college-success, and Fortune 1000 employer offerings, and publishes a large admissions blog. As of 2026-07-19 Kyros publishes no public API, developer portal, SDKs, or machine-readable API description.
 
-Backed by: sierra-ventures — https://kyros.ai/
+**Areas:** Company · Education · EdTech · College Admissions · College Prep · Artificial Intelligence · Counseling · Test Preparation · Students
+
+## Kyros College Prep on APIs.io
+
+Everything profiled for Kyros College Prep is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kyros/](https://apis.io/providers/kyros/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kyros Domain Security](https://apis.io/security/kyros/kyros-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kyros.ai/)
+- [Pricing](https://www.kyros.ai/plans-pricing)
+- [Support](https://www.kyros.ai/faq)
+- [Blog](https://www.kyros.ai/blogs)
+- [Terms of service](https://www.kyros.ai/legal/term-of-use)
+- [Privacy policy](https://www.kyros.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 4.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kyros/](https://apis.io/providers/kyros/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kyros College Prep: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kyros/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
